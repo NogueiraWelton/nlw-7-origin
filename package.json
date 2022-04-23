@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn sass ./src/scss/style.scss ./public/css/style.css --watch",
-    "build": "yarn sass ./src/scss/style.scss ./public /css/style.css --style compressed"
+    "build": "yarn sass ./src/scss/style.scss ./public/css/style.css --style compressed"
   },
   "license": "MIT",
   "devDependencies": {
