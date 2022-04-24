@@ -73,10 +73,20 @@ img {
           align-items: center;
           margin-top: .25rem;
           gap: .75rem;;
+
+          a {
+            color: var(--gray);
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
         }
+
         & > p {
           margin-top: 2rem;
-          font-size: .875rem;;
+          font-size: .875rem;
         }
       }
       .card__content__container__social-media {

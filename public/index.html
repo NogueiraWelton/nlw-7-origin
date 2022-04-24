@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon.png">
   <title>NLW 7 - Origin</title>
 </head>
 
@@ -21,45 +24,37 @@
       <div class="card__content">
         <div class="card__content__container">
           <div class="card__content__container__avatar">
-            <img src="./assets/images/avatar.jpg" alt="Avatar">
+            <img id="userAvatar" alt="Avatar">
             <span class="card__content__container__avatar__seal"><img src="./assets/icons/rocketseat.svg" alt="Rocket Seat Seal"></span>
           </div>
           <div class="card__content__container__info">
-            <h1>Welton Nogueira</h1>
+            <h1 id="userName"></h1>
             <div class="card__content__container__info__github">
               <img src="./assets/icons/github.svg" alt="Github Icon">
-              <p>NogueiraWelton</p>
+              <a id="userLogin" target="_blank"></a>
             </div>
-            <p>An estudent focused on learn programming for web</p>
+            <p id="userBio"></p>
           </div>
           <div class="card__content__container__social-media">
             <ul>
               <li>
-                <a href="">
-                  <i>
-                    <img src="./assets/icons/youtube.svg" alt="Youtube Icon">
-                  </i>
+                <a data-social-media="linkedin">
+                  <img src="./assets/icons/linkedin.svg" alt="Linkedin Icon">
                 </a>
               </li>
               <li>
-                <a href="">
-                  <i>
-                    <img src="./assets/icons/instagram.svg" alt="Instagram Icon">
-                  </i>
+                <a data-social-media="instagram">
+                  <img src="./assets/icons/instagram.svg" alt="Instagram Icon">
                 </a>
               </li>
               <li>
-                <a href="">
-                  <i>
-                    <img src="./assets/icons/facebook.svg" alt="Facebook Icon">
-                  </i>
+                <a data-social-media="facebook">
+                  <img src="./assets/icons/facebook.svg" alt="Facebook Icon">
                 </a>
               </li>
               <li>
-                <a href="">
-                  <i>
-                    <img src="./assets/icons/twitter.svg" alt="Twitter Icon">
-                  </i>
+                <a data-social-media="twitter">
+                  <img src="./assets/icons/twitter.svg" alt="Twitter Icon">
                 </a>
               </li>
             </ul>
@@ -68,6 +63,7 @@
       </div>
     </div>
   </main>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
