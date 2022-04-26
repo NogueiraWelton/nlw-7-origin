@@ -25,6 +25,6 @@ Após disso, utilize uma ferramenta como o [Live Server](https://marketplace.vis
 
 ## 📝 Licença
 
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/NogueiraWelton/maratona-discover-1/blob/master/LICENSE).
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/nogueirawelton/nlw-7-origin/blob/master/LICENSE).
 
 **Desenvolvido por [Welton Nogueira](https://github.com/NogueiraWelton/).**
