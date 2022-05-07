@@ -27,6 +27,15 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
 .card {
   .card__badge {
     display: flex;
@@ -72,11 +81,14 @@ img {
           justify-content: center;
           align-items: center;
           margin-top: .25rem;
-          gap: .75rem;;
+          gap: .75rem;
+
+          i {
+            font-size: 1rem;
+          }
 
           a {
             color: var(--gray);
-            text-decoration: none;
 
             &:hover {
               text-decoration: underline;
