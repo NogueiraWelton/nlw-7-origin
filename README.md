@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  Feedback Widget Api
+  NLW 7 - Origin
 </h1>
 
 <p align="center">
