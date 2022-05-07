@@ -1,19 +1,32 @@
-## 📖 Sobre
-Projeto desenvolvido durante a **NLW 7** da **[Rocketseat](https://github.com/Rocketseat)**, com alterações pessoais a partir do uso de Sass, Webpack e Babel.
+
+<h1 align="center">
+  Feedback Widget Api
+</h1>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033">
 
 
-## 💻 Tecnologias e Ferramentas Utilizadas
-- **HTML5**
-- **CSS3**
-- **Sass**
-- **JavaScript**
-- **Webpack**
-- **Babel**
+
+## 💻 Projeto
+Projeto desenvolvido baseado no **NLW 7** da **[Rocketseat](https://github.com/Rocketseat)**, com alterações pessoais a partir do uso de Sass, Webpack e Babel.
+
+## ✨ Tecnologias
+
+-   [ ] HTML5
+-   [ ] CSS3
+-   [ ] SASS
+-   [ ] JavaScript
+-   [ ] WebPack
+-   [ ] Babel
 
 
-## 🔧 Como executar o projeto
+## Executando o projeto
 
-```bash
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto.
+
+```cl
 # Clone o repositório
 git clone https://github.com/nogueirawelton/nlw-7-origin.git
 
@@ -22,9 +35,8 @@ cd nlw-7-origin
 ```
 Após disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
+## 📄 Licença
 
-## 📝 Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/nogueirawelton/nlw-7-origin/blob/master/LICENSE).
-
-**Desenvolvido por [Welton Nogueira](https://github.com/NogueiraWelton/).**
+<br />
